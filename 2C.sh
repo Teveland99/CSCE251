@@ -1,1 +1,1 @@
-grep -o '\b\w\.swf\b' short-rockyou.txt
+grep -o '\b\w\password\b' short-rockyou.txt
