@@ -11,3 +11,5 @@ function frequency() {
               printf("%3d %s\n", words[w], w)
      } ' | sort -rn
 }
+
+$ cat short-rockyou.txt | frequency | head -10
