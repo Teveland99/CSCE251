@@ -1,1 +1,1 @@
-tr -c '[:alnum:]' '[\n*]' < test.txt | sort | uniq -c | sort -nr | head  -25
+tr -c '[:alnum:]' '[\n*]' < short-rockyou.txt | sort | uniq -c | sort -nr | head  -25
