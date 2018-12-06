@@ -1,1 +1,1 @@
-tr -c '[:alnum:]' '[\n*]' < short-rockyou.txt | sort | uniq -c | sort -nr | head  -25
+grep -oE '[[:alpha:]]+' Text.txt | sort -f | uniq -ic | sort -nr | head -25
