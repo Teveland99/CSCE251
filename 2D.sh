@@ -1,1 +1,2 @@
-grep -o '\b\w\1\b' short-rockyou.txt
+f1=$1
+grep -o '\b\w*\f1\b' short-rockyou.txt
